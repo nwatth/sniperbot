@@ -1,0 +1,27 @@
+{
+  "name": "sniperbot",
+  "version": "1.0.0",
+  "description": "Ask the new data in DotA and tell everyone on the channel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slack",
+    "bot",
+    "dota",
+    "sniper"
+  ],
+  "author": {
+    "name": "Nantiwat Thongseng",
+    "email": "nwatth@gmail.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "request": "^2.60.0",
+    "slackbots": "^0.3.0"
+  }
+}
